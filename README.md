@@ -6,6 +6,7 @@ author: email: usmanialiq@gmail.com
 - create a .env file
 - add the following variables:
 CRYPTO_API_URL=https://min-api.cryptocompare.com/data/pricemulti
+
 CRYPTO_API_KEY={replace_with_your_key}
 
 - download the extract the transactions.csv file into the root of the project
