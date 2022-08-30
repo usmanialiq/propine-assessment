@@ -21,15 +21,15 @@ URL: https://s3-ap-southeast-1.amazonaws.com/static.propine.com/transactions.csv
 
 
 Following are the examples:
-`yarn start BTC` -> by token 
-`yarn start 25-09-2019` -> by date 
-`yarn start BTC 25-09-2019` -> by token & date 
-`yarn start 25-09-2019 BTC` -> by date & token 
-`yarn start` -> to return the latest 
+`yarn start BTC` -> by token <br />
+`yarn start 25-09-2019` -> by date <br />
+`yarn start BTC 25-09-2019` -> by token & date <br />
+`yarn start 25-09-2019 BTC` -> by date & token <br />
+`yarn start` -> to return the latest <br />
 
 ## Project sturcture
-The project is structured as,
-- index.ts is the main file which will run
+The project is structured as, <br />
+- index.ts is the main file which will run <br />
 - interfaces folder contains the file for the interfaces used accross the project
 - argsParser.ts makes sure to extract the correct info against any order else returns null
 - dateParser.ts makes sure to convert the timestamp to date with format DD-MM-YYYY
