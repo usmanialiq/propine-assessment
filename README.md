@@ -20,7 +20,7 @@ URL: https://s3-ap-southeast-1.amazonaws.com/static.propine.com/transactions.csv
 - you can reverse the order of the `arguments`
 
 
-Following are the examples:
+Following are the examples: <br />
 `yarn start BTC` -> by token <br />
 `yarn start 25-09-2019` -> by date <br />
 `yarn start BTC 25-09-2019` -> by token & date <br />
