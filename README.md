@@ -4,9 +4,9 @@ author: email: usmanialiq@gmail.com
 
 ## To run the project
 - create a .env file
-- add the following variables:
-CRYPTO_API_URL=https://min-api.cryptocompare.com/data/pricemulti <br />
-CRYPTO_API_KEY={replace_with_your_key}
+- add the following variables: <br />
+`CRYPTO_API_URL=https://min-api.cryptocompare.com/data/pricemulti
+CRYPTO_API_KEY={replace_with_your_key}`
 
 - download and extract the `transactions.csv` file into the root of the project <br />
 URL: https://s3-ap-southeast-1.amazonaws.com/static.propine.com/transactions.csv.zip 
