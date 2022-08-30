@@ -8,7 +8,7 @@ author: email: usmanialiq@gmail.com
 CRYPTO_API_URL=https://min-api.cryptocompare.com/data/pricemulti <br />
 CRYPTO_API_KEY={replace_with_your_key}
 
-- download the extract the transactions.csv file into the root of the project
+- download and extract the `transactions.csv` file into the root of the project <br />
 URL: https://s3-ap-southeast-1.amazonaws.com/static.propine.com/transactions.csv.zip 
 
 - run command `yarn` to install the packages
