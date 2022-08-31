@@ -1,6 +1,8 @@
 ### Propine Assesment
 author: email: usmanialiq@gmail.com
 
+## Challenge:
+https://gist.github.com/liangzan/4436cb8b083c66b3517e7f4d80939f06 <br />
 
 ## To run the project
 - create a .env file
