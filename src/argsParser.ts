@@ -13,7 +13,7 @@ export function argsParser(args: string[]): IArguments {
         return obj;
     }
 
-    if (['BTC', 'ETH', 'XRP'].includes(args[0])) {
+    else if (['BTC', 'ETH', 'XRP'].includes(args[0])) {
         obj = {
             ...obj,
             token: args[0],
@@ -27,7 +27,7 @@ export function argsParser(args: string[]): IArguments {
     }
     
     // eslint-disable-next-line no-useless-escape
-    if (args[0].match(/^\d{2}[./-]\d{2}[./-]\d{4}$/)) {
+    else if (args[0].match(/^\d{2}[./-]\d{2}[./-]\d{4}$/)) {
         obj = {
             ...obj,
             date: args[0],
